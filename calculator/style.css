@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+
+    font-family: 'Arial',sans-serif ;
+    outline: none;
+  
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/calculator6');
+
+}
+
+.Calculator{
+    background-color: #68d3ee;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+   grid-template-columns: repeat(4,68px);
+   
+}
+
+input{
+    grid-column: span 4;
+    height: 90px;
+    width: 270px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px  5px 12px rgba(0,0,0,.16);
+    border:none;
+    border-radius: 10px;
+    color: rgb(70, 70, 70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+
+}
+
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 10px;
+    margin: 8px;
+    font-size: 22px;
+
+
+}
+
+button:hover{
+    background-color: #f1f1f1;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+button:active{
+    background-color: #e2e2e2;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.equal{
+    width: 115px;
+    border-radius: 40px;
+    background-color: #17b717;
+    box-shadow: -5px -5px 12px rgba(0,0,0,.16)
+}
+
+.equal:hover{
+    background-color: #45a049;
+
+}
+
+.equal:active{
+    background-color: #39843d;
+}
+
+button:nth-child(2),
+button:nth-child(3) {
+    background-color: #f44336;
+    color: white;
+}
+
+button:nth-child(2):hover,
+button:nth-child(3):hover {
+    background-color: #e53935;
+}
+
+
+button:nth-child(2):active,
+button:nth-child(3):active {
+    background-color: #d32f2f;
+}
+
+.add{
+    background-color: #ff69b4;
+}
+
+.add:hover{
+    background-color: #ff1493;
+}
+
+.multi{
+    background-color: #ff69b4;
+}
+
+.multi:hover{
+    background-color: #ff1493;
+}
+
+.minus{
+    background-color: #ff69b4;
+}
+
+.minus:hover{
+    background-color: #ff1493;
+}
+
+.divide{
+    background-color: #ff69b4;
+}
+
+.divide:hover{
+    background-color: #ff1493;
+}
+
+.dot{
+    background-color: #20b2aa;
+}
+
+.dot:hover{
+    background-color: #00ced1;
+}
+.moduls{
+    background-color: #ff69b4;
+}
+
+.moduls:hover{
+    background-color: #ff1493;
+}

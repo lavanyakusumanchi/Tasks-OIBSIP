@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>    
+</head>
+<body>
+    <div class="container">
+        <div class="Calculator">
+            <input type="text" placeholder="0" id="output-screen">
+            <button onclick="del()">DEL</button>
+            <button onclick="Clear()">C</button>
+            <button onclick="display('+')" class="add">+</button>
+            <button onclick="display('-')" class="minus">-</button>
+            <button onclick="display('7')" class="seven">7</button>
+            <button onclick="display('8')" class="eight">8</button>
+            <button onclick="display('9')" class="nine">9</button>
+            <button onclick="display('*')" class="multi">*</button>
+            <button onclick="display('4')" class="four">4</button>
+            <button onclick="display('5')" class="five">5</button>
+            <button onclick="display('6')" class="six">6</button>
+            <button onclick="display('/')" class="divide">/</button>
+            <button onclick="display('1')" class="one">1</button>
+            <button onclick="display('2')" class="two">2</button>
+            <button onclick="display('3')" class="three">3</button>
+            <button onclick="display('%')" class="moduls">%</button>
+            <button onclick="display('0')" class="zero">0</button>
+            <button onclick="display('.')" class="dot">.</button>
+            <button onclick="Calculate()" class="equal">=</button>
+        </div>
+    </div>
+    <script src="node.js"></script>
+
+</body>
+</html>
